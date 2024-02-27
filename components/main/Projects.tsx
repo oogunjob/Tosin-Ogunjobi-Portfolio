@@ -22,7 +22,7 @@ const Projects = () => {
           link="https://github.com/oogunjob/Melody-Migrate"
         />
         <ProjectCard
-          src="/transcript-translation.png"
+          src="/stream-translation.png"
           title="Transcript Translations"
           description="Feature added to Microsoft Stream that allows users to translate transcripts of audio into over 120 languages."
           link="https://go.microsoft.com/fwlink/?linkid=2247340"
