@@ -34,7 +34,7 @@ const Projects = () => {
           link="https://github.com/ogunjobiFX/MT4-MT5-Forex-Signal-Copier-Telegram-Bot"
         />
         <ProjectCard
-          src="/project-5.png"
+          src="/fruit-ninja.png"
           title="STM32F091 Fruit Ninja Clone"
           description="Senior project that allows users to play the popular game Fruit Ninja on a STM32F091 microcontroller written in C."
           link="https://github.com/oogunjob/STM32F091-Fruit-Ninja-Clone"
