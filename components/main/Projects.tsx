@@ -16,19 +16,19 @@ const Projects = () => {
           link="https://github.com/oogunjob/Lantern-Client"
         />
         <ProjectCard
-          src="/project-3.png"
+          src="/melody-migrate.png"
           title="Melody Migrate"
           description="Open source web application to transfer music playlists between different streaming platforms."
           link="https://github.com/oogunjob/Melody-Migrate"
         />
         <ProjectCard
-          src="/project-3.png"
+          src="/transcript-translation.png"
           title="Transcript Translations"
           description="Feature added to Microsoft Stream that allows users to translate transcripts of audio into over 120 languages."
           link="https://go.microsoft.com/fwlink/?linkid=2247340"
         />
         <ProjectCard
-          src="/project-4.png"
+          src="/trading-bot.png"
           title="FX Telegram Copy Trader"
           description="Open source tool that allows Forex traders to copy trades from Telegram to their own trading platform with auto parsing leveraged from GPT-4."
           link="https://github.com/ogunjobiFX/MT4-MT5-Forex-Signal-Copier-Telegram-Bot"
