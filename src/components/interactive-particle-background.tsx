@@ -99,7 +99,7 @@ export function InteractiveParticleBackground() {
         }
 
         // Connect particles to mouse
-        if (mouse.x != null) {
+        if (mouse.x != null && mouse.y != null) {
           const dx = p.x - mouse.x;
           const dy = p.y - mouse.y;
           const dist = Math.sqrt(dx * dx + dy * dy);
