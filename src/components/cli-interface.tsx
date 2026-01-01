@@ -52,12 +52,14 @@ const ALIASES = {
   p: 'projects',
   c: 'contact',
   t: 'theme',
+  w: 'work',
 };
 
 const COMMANDS = {
   help: 'Available commands:\n\n' +
     'help     (h, ?)  - Show this help message\n' +
     'about    (a)     - Display information about me\n' +
+    'work     (w)     - Show my work experience\n' +
     'skills   (s)     - List my technical skills\n' +
     'projects (p, ls) - List my projects\n' +
     'edu             - Show my education\n' +
@@ -74,6 +76,9 @@ const COMMANDS = {
   ).join('\n'),
   edu: () => DATA.education.map(edu => 
     `\n${edu.school} - ${edu.degree}\n${edu.start} - ${edu.end}\n`
+  ).join('\n'),
+  work: () => DATA.work.map(work => 
+    `\n${work.company} - ${work.title}\n${work.location}\n${work.start} - ${work.end}\n${work.description}\n`
   ).join('\n'),
   contact: () => `Email: ${DATA.contact.email}`,
   social: () => Object.entries(DATA.contact.social)

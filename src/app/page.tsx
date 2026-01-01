@@ -228,7 +228,7 @@ export default function Page() {
               <h2 className="text-xl font-bold">Featured Projects</h2>
             </BlurFade>
             <BlurFade delay={BLUR_FADE_DELAY * 15}>
-              <div className="grid gap-4 sm:grid-cols-2">
+              <div className="grid gap-4">
                 {DATA.projects
                   .filter((project) => 
                     project.active && 

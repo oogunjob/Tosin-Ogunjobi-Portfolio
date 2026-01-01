@@ -34,7 +34,7 @@ export default function GadgetsPage() {
           <div className="max-w-3xl mx-auto mb-16 text-center space-y-4">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">My Tech Setup 🚀</h1>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              I use these products for my personal use and recommend them to others, it will help me a lot if you buy through my affiliate links.
+              I use these products for my personal use and recommend them to others. Make sure to check them out!
             </p>
           </div>
           

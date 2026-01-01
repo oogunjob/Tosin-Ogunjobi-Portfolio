@@ -71,7 +71,7 @@ export function ProjectCard({
               loop
               muted
               playsInline
-              className="pointer-events-none mx-auto h-40 w-full object-cover object-top transition-transform duration-500 group-hover:scale-105 group-hover:blur-[2px]"
+              className="pointer-events-none mx-auto h-56 w-full object-cover object-top transition-transform duration-500 group-hover:scale-105 group-hover:blur-[2px]"
             />
           )}
           {image && !video && (
@@ -80,7 +80,7 @@ export function ProjectCard({
               alt={title}
               width={500}
               height={300}
-              className="h-40 w-full overflow-hidden object-cover object-top transition-transform duration-500 group-hover:scale-105 group-hover:blur-[2px]"
+              className="h-56 w-full overflow-hidden object-cover object-top transition-transform duration-500 group-hover:scale-105 group-hover:blur-[2px]"
             />
           )}
           
@@ -91,24 +91,24 @@ export function ProjectCard({
              </div>
           </div>
         </Link>
-        <CardHeader className="px-2">
-        <div className="space-y-1">
-          <CardTitle className="mt-1 text-base">{title}</CardTitle>
-          <time className="font-sans text-xs">{dates}</time>
-          <div className="hidden font-sans text-xs underline print:visible">
+        <CardHeader className="px-4 mb-3">
+        <div className="space-y-2">
+          <CardTitle className="mt-3 text-xl">{title}</CardTitle>
+          <time className="font-sans text-sm">{dates}</time>
+          <div className="hidden font-sans text-sm underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert mb-4">
             {description}
           </Markdown>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex flex-col px-2">
+      <CardContent className="flex flex-col px-4 mt-3">
         {tags && tags.length > 0 && (
           <div className="mt-2 flex flex-wrap gap-1 max-w-full overflow-hidden">
             {tags?.map((tag) => (
               <Badge
-                className="px-1 py-0 text-[10px] whitespace-nowrap"
+                className="px-2 py-1 text-xs whitespace-nowrap"
                 variant="secondary"
                 key={tag}
               >
@@ -118,12 +118,12 @@ export function ProjectCard({
           </div>
         )}
       </CardContent>
-      <CardFooter className="px-2 pb-2">
+      <CardFooter className="px-4 pb-4">
         {links && links.length > 0 && (
           <div className="flex flex-row flex-wrap items-start gap-1">
             {links?.map((link, idx) => (
               <Link href={link?.href} key={idx} target="_blank">
-                <Badge key={idx} className="flex gap-2 px-2 py-1 text-[10px]">
+                <Badge key={idx} className="flex gap-2 px-3 py-2 text-sm">
                   {link.icon}
                   {link.type}
                 </Badge>
