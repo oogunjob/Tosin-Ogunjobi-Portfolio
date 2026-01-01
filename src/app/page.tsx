@@ -230,11 +230,7 @@ export default function Page() {
             <BlurFade delay={BLUR_FADE_DELAY * 15}>
               <div className="grid gap-4">
                 {DATA.projects
-                  .filter((project) => 
-                    project.active && 
-                    project.title !== "Solar System" && 
-                    project.title !== "Coffee-Website"
-                  )
+                  .filter((project) => project.active)
                   .slice(0, 2)
                   .map((project) => (
                     <div key={project.title} className="relative overflow-hidden rounded-xl">
