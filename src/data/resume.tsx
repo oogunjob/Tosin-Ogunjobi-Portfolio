@@ -32,76 +32,6 @@ export const DATA = {
     "OAuth/JWT"
   ],
   videos: [
-    {
-      title: "Track Your Coding time for free",
-      description: "Learn how to track your code time with complete analytics and insights.",
-      thumbnail: "/video1.avif",
-      url: "https://youtu.be/tBatfQjWxCg?si=sy2vZbCHoIYNME-3",
-      date: "2024-05-15"
-    },
-    {
-      title: "Fix multi-cursor in VS Code",
-      description: "Simple trick to fix multi-cursor in VS Code.",
-      thumbnail: "/video2.avif",
-      url: "https://youtu.be/E9h7M6ZK_tA?si=ykzV7ARU4VMnbBRo",
-      date: "2024-07-01"
-    },
-    {
-     title: "Twitter(X)'s monetization (Hindi)",
-     description: "Is the policy broken? Let's find out.",
-     thumbnail: "/video3.avif",
-     url: "https://youtu.be/Z3h1jt6jKLY?si=blL4l4FNco9WW9FT",
-     date: "2024-11-04"
-    },
-    {
-      title:"How to fix any kind of ban in twitter (Hindi)",
-      description: "Learn how to fix any kind of ban in twitter.",
-      thumbnail: "/video4.avif",
-      url:"https://youtu.be/P7JRFrcXlQU",
-      date: "2024-12-24"
-    },
-    {
-      title:"Microsoft's new shocking move (Hindi)",
-      description: "GitHub Copilot is now free for everyone, let's see what's the catch.",
-      thumbnail: "/video5.avif",
-      url:"https://www.youtube.com/watch?v=uIJOUe8T3_I",
-      date: "2024-12-19"
-    },
-    {
-      title:"How to run DeepSeek R1 model locally (Hindi)",
-      description:"Learn how to run DeepSeek R1 model locally, in easy steps",
-      thumbnail: "/video6.avif",
-      url:"https://youtu.be/BgB2pW6QgVg",
-      date: "2025-01-29"
-    },
-    {
-      title:"How to do zoom in and out video recording in Windows for free. (Hindi)",
-      description:"Learn how to do zoom in and out video recording in Windows for free.",
-      thumbnail: "/video7.avif",
-      url:"https://youtu.be/WziGdEiT9fE",
-      date: "2025-03-16"
-    },
-    {
-      title:"I Finally Got My FIRST PC!",
-      description: "In this video I talked about my first PC, overall experience was really good, I also talked about the components that I used in the PC in details as well as why to use them and why not.",
-      thumbnail: "/video8.avif",
-      url:"https://youtu.be/vHTbqgmB2U8",
-      date: "2025-05-06"
-    },
-    {
-      title:"How to Get Free Subscriptions for Notion, Cursor, Google, Perplexity & Free Domain Names (Hindi)",
-      description: "In this video I talked about how to get free subscriptions for Notion, Cursor, Google, Perplexity & Free Domain Names.",
-      thumbnail: "/video9.avif",
-      url:"https://youtu.be/0Up-SjeSwI0",
-      date: "2025-08-27"
-    },
-    {
-      title:"The Truth About My 2025: Wins, Losses, & Regrets",
-      description: "In this video, I break down the specific wins and devastating losses that defined my year, and the critical lessons I learned from them. This isn't just a highlight reel, it’s an honest look at what it takes to grow when life hits hard.",
-      thumbnail: "/video10.avif",
-      url:"https://youtu.be/iXPFdG9Ft7E",
-      date: "2025-12-23"
-    },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -164,7 +94,6 @@ export const DATA = {
       },
     },
   },
-
   work: [
     {
       company: "Microsoft",
@@ -255,8 +184,8 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Vault - Open Source Bitcoin Wallet",
-      href: "https://github.com/oogunjob",
+      title: "HRZN - Open Source Bitcoin Wallet",
+      href: "https://github.com/oogunjob/HRZN-Mobile-App",
       dates: "December 2025 - Present",
       active: true,
       description:
@@ -274,7 +203,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/oogunjob",
+          href: "https://github.com/oogunjob/HRZN-Mobile-App",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -283,7 +212,7 @@ export const DATA = {
     },
     {
       title: "MIXX",
-      href: "https://github.com/oogunjob",
+      href: "https://github.com/oogunjob/MIXX-Mobile-App",
       dates: "August 2024 - May 2025",
       active: false,
       description:
@@ -299,7 +228,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/oogunjob",
+          href: "https://github.com/oogunjob/MIXX-Mobile-App",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -308,7 +237,7 @@ export const DATA = {
     },
     {
       title: "Music-Lineup-IO",
-      href: "https://github.com/oogunjob",
+      href: "https://github.com/oogunjob/Music-Lineup-IO",
       dates: "February 2024 - March 2024",
       active: false,
       description:
@@ -323,7 +252,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/oogunjob",
+          href: "https://github.com/oogunjob/Music-Lineup-IO",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -332,7 +261,7 @@ export const DATA = {
     },
     {
       title: "STM32F091-Fruit-Ninja-Clone",
-      href: "https://github.com/oogunjob",
+      href: "https://github.com/oogunjob/STM32F091-Fruit-Ninja-Clone",
       dates: "May 2022",
       active: false,
       description:
@@ -346,7 +275,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/oogunjob",
+          href: "https://github.com/oogunjob/STM32F091-Fruit-Ninja-Clone",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -355,7 +284,7 @@ export const DATA = {
     },
     {
       title: "FX-Signal-Copier-Telegram-Bot",
-      href: "https://github.com/oogunjob",
+      href: "https://github.com/oogunjob/FX-Signal-Copier-Telegram-Bot",
       dates: "October 2022 - February 2023",
       active: false,
       description:
@@ -370,7 +299,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/oogunjob",
+          href: "https://github.com/oogunjob/FX-Signal-Copier-Telegram-Bot",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -379,7 +308,7 @@ export const DATA = {
     },
     {
       title: "Lantern-Client",
-      href: "https://github.com/oogunjob",
+      href: "https://github.com/oogunjob/Lantern-Client",
       dates: "January 2022 - May 2022",
       active: false,
       description:
@@ -393,7 +322,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/oogunjob",
+          href: "https://github.com/oogunjob/Lantern-Client",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -402,27 +331,5 @@ export const DATA = {
     }
   ],
   hackathons: [
-    {
-      title: "Smart India Hackathon",
-      dates: "March 23rd - 25th, 2022",
-      location: "Bhubaneswar, India",
-      description:
-        "Developed a learing portal with some free education content with the best paid contents too, the project was called as 'EducationX'.",
-      image:
-        "/smart-india-hackathon.webp",
-      mlh: "https://github.com/Synchrotek/E-LearningX",
-      links: [],
-    },
-    {
-      title: "Smart India Hackathon",
-      dates: "December 19th - 23rd, 2023",
-      location: "Bhubaneswar, India",
-      description:
-        "Developed A collaborative coding web platform that enables Multiuser collboration on a coding project in real-time with features of group chat, to-do lists.",
-      image:
-        "/logo.webp",
-      mlh: "https://nexuslink01v.netlify.app/",
-      links: [],
-    },
   ],
 } as const;
