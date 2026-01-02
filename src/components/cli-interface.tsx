@@ -78,7 +78,7 @@ const COMMANDS = {
     `\n${edu.school} - ${edu.degree}\n${edu.start} - ${edu.end}\n`
   ).join('\n'),
   work: () => DATA.work.map(work => 
-    `\n${work.company} - ${work.title}\n${work.location}\n${work.start} - ${work.end}\n${work.description}\n`
+    `\n${work.company} - ${work.title}\n${work.location}\n${work.start} - ${work.end}\n`
   ).join('\n'),
   contact: () => `Email: ${DATA.contact.email}`,
   social: () => Object.entries(DATA.contact.social)
