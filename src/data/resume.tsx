@@ -176,7 +176,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/oogunjob/Odyssey-Mobile-App",
+          href: "https://github.com/oogunjob/Odyssey-Bitcoin-Mobile-App",
           icon: <Icons.github className="size-3" />,
         },
       ],
