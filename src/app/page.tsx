@@ -12,17 +12,9 @@ import { PersonSchema } from "@/components/schema/person-schema";
 import { Metadata } from 'next';
 import { Icons } from "@/components/icons";
 import ShinyButton from "@/components/ui/shiny-button";
-import { RainbowButton } from "@/components/ui/rainbow-button";
-import { SocialIconLink } from "@/components/social-icon-link";
-import { BlogSkeleton } from "@/components/skeletons/blog-skeleton";
 import { GithubSkeleton } from "@/components/skeletons/github-skeleton";
 import { ProjectSkeleton } from "@/components/skeletons/project-skeleton";
-import { HackathonSkeleton } from "@/components/skeletons/hackathon-skeleton";
-import { BorderBeam } from "@/components/magicui/border-beam";
 import { InteractiveParticleBackground } from "@/components/interactive-particle-background";
-// import { AgeCounter } from "@/components/age-counter";
-import { GitHubSponsors } from "@/components/github-sponsors";
-import { TwitterTestimonials } from "@/components/twitter-testimonials";
 const BLUR_FADE_DELAY = 0.04;
 export const metadata: Metadata = {
   title: DATA.name,
@@ -52,11 +44,6 @@ export const metadata: Metadata = {
   },
 };
 
-const BlogCard = dynamic(() => import("@/components/blog-card").then(mod => mod.BlogCard), {
-  ssr: true,
-  loading: () => <BlogSkeleton />
-});
-
 const GithubContributions = dynamic(() => import("@/components/github-calendar").then(mod => mod.GithubContributions), {
   ssr: false,
   loading: () => <GithubSkeleton />
@@ -65,11 +52,6 @@ const GithubContributions = dynamic(() => import("@/components/github-calendar")
 const ProjectCardDynamic = dynamic(() => import("@/components/project-card").then(mod => mod.ProjectCard), {
   ssr: true,
   loading: () => <ProjectSkeleton />
-});
-
-const HackathonCardDynamic = dynamic(() => import("@/components/hackathon-card").then(mod => mod.HackathonCard), {
-  ssr: true,
-  loading: () => <HackathonSkeleton />
 });
 
 export default function Page() {
