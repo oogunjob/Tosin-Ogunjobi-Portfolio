@@ -104,8 +104,12 @@ export const DATA = {
       logoUrl: "/microsoft.png",
       start: "August 2022",
       end: "Pressent",
-      description:
-        "Learned about how to work in a fast-paced environment in a startup.",
+      contributions: [
+        "Former contributor to Office AI, delivering agentic, AI-powered experiences using Microsoft Copilot Studio, enabling customers to automate workflows and interact with intelligent agents at enterprise scale",
+        "Previously contributed to Microsoft Stream, a flagship enterprise video platform used by hundreds of global organizations and universities, supporting features relied on by millions of monthly active users",
+        "Contributed to the launch of Audio Descriptions, improving video accessibility for visually impaired users and advancing Microsoft's accessibility commitments across enterprise video content",
+        "Instrumental in launching Transcript Translations, enabling video transcripts to be translated into 120+ languages, significantly expanding global accessibility and unlocking new enterprise adoption and revenue opportunities for Microsoft Stream"
+      ]
     },
     {
       company: "Microsoft",
@@ -116,8 +120,12 @@ export const DATA = {
       logoUrl: "/microsoft.png",
       start: "May 2021",
       end: "August 2021",
-      description:
-        "Learned about how to work in a fast-paced environment in a startup.",
+      contributions: [
+        "Led a 12-week project to design and implement a filter using FFmpeg's open-source technology, streamlining Azure Cognitive Services for Microsoft Stream's automatic transcription feature",
+        "Architected an interop layer bridging C++ and C# languages, enabling seamless integration of the FFmpeg filter into the existing C# repository",
+        "Collaborated closely with senior developers to craft a robust pipeline for the filter application, ensuring efficient and reliable performance throughout the transcription process",
+        "Incorporated Azure Cognitive Services into the transcription workflow, directly contributing to a ~10% reduction in transcription costs—a significant monetary savings for the company"
+      ]
     },
     {
       company: "Microsoft",
@@ -128,8 +136,12 @@ export const DATA = {
       logoUrl: "/microsoft.png",
       start: "May 2020",
       end: "August 2020",
-      description:
-        "Learned about how to work in a fast-paced environment in a startup.",
+      contributions: [
+        "Collaborated in a team with two fellow interns to develop a student-centric video streaming platform on Microsoft Stream, utilizing TypeScript and React, addressing the need for enhanced online learning during the COVID pandemic",
+        "Developed key features such as video chaptering, in-video note taking, and interactive quizzes to enhance student engagement and comprehension during video sessions",
+        "Assumed project management responsibilities, liaising with stakeholders to gather crucial feedback and steering the project direction to align with user requirements",
+        "Led user-centric product testing by orchestrating surveys and focus groups, ensuring the platform met real-world educational needs; partnered with designers to craft an intuitive UI/UX using Figma"
+      ]
     }
   ],
   education: [
@@ -211,7 +223,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "MIXX",
+      title: "MIXX Mobile App",
       href: "https://github.com/oogunjob/MIXX-Mobile-App",
       dates: "August 2024 - May 2025",
       active: false,
@@ -307,7 +319,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Lantern-Client",
+      title: "Lantern: Free Accounting Software for Small Businesses",
       href: "https://github.com/oogunjob/Lantern-Client",
       dates: "January 2022 - May 2022",
       active: false,

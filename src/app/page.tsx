@@ -129,10 +129,10 @@ export default function Page() {
                   altText={work.company}
                   title={work.company}
                   subtitle={work.title}
-                  href={work.href}
                   badges={work.badges}
                   period={`${work.start} - ${work.end}`}
-                  description={work.description}
+                  // description={work.description}
+                  contributions={work.contributions}
                   target="_blank"
                 />
               </BlurFade>
