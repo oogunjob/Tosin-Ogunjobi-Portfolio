@@ -131,9 +131,7 @@ export default function Page() {
                   subtitle={work.title}
                   badges={work.badges}
                   period={`${work.start} - ${work.end}`}
-                  // description={work.description}
                   contributions={work.contributions}
-                  target="_blank"
                 />
               </BlurFade>
             ))}
